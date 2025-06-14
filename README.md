@@ -1,21 +1,19 @@
-# ApexPlanet Internship Task 4
+# Internship Task 5 – Final Integrated PHP CRUD App
 
-Task 4 focuses on improving the security of the PHP CRUD application by:
-- Using prepared statements (PDO)
-- Adding form validation
-- Implementing user roles and role-based access control
+This project is the **final task (Task 5)** of my Web Development Internship at **ApexPlanet Software Pvt. Ltd.**  
+It consolidates all features from previous tasks into a complete, secure, and functional PHP web application.
 
-## Features:
-- Registration & Login
-- Role-based access (admin/editor)
-- Secure form handling
+---
 
-## How to Run
-1. Place this folder in `htdocs/`
-2. Import `blog_task4.sql` into phpMyAdmin
-3. Run the app: `http://localhost/internship-task4/`
+## ✅ Features
 
-## Default Roles
-- New users are assigned the role `editor`
-- Manually set role to `admin` via database if needed
-"# internship-task5" 
+- 🔐 **User Authentication** (register/login/logout)
+- 📋 **CRUD** for blog posts
+- 🔎 **Search & Pagination** for post browsing
+- ✅ **Form Validation** on all inputs
+- 🔒 **PDO Prepared Statements** (safe DB access)
+- 👮 **Role-Based Access Control**
+  - `editor`: can create and edit posts
+  - `admin`: can create, edit, and delete posts
+
+---
